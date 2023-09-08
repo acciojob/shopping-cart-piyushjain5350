@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="input-contianerr">
+        <input type="text" name="name" id="item-name-input" placeholder="item">
+        <input type="number" name="price" id="item-price-input" placeholder="price">
+        <input type="button" value="Add" id="add">
+    </div>
+    <div class="display-container">
+        <table>
+            <thead>
+                <tr>
+                    <th id="item">Item</th>
+                    <th id="price">Price</th>
+                </tr>
+            </thead>
+            <tbody id="add-item" >
+                
+                <!-- <tr>
+                    <td>Grand total</td>
+                    <td id="total">0</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <h3 id="total">
+            
+        </h3>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
